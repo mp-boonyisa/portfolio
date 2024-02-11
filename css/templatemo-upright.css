@@ -74,7 +74,7 @@ hr { border-top: 4px solid #CCC; }
 
 .tm-section-wrap {
 	width: calc(100% - 750px);
-	margin-left: 750px;
+	margin-left: 30vw;
 	margin-right: 0;
 	position: relative;
 }
@@ -88,13 +88,12 @@ hr { border-top: 4px solid #CCC; }
 }
 
 .tm-parallax {
-	width: 400px;	
+	width: 0px;	
 	min-height: 100%;
 	height: auto;
 	background: transparent;
 	position: absolute;
-    width: 400px;
-    left: -470px;
+    left: 0px;
     top: 0;
 }
 
@@ -659,7 +658,7 @@ select:not([multiple]) {
 @media (max-width: 1400px) {
 	.tm-section-wrap {
 		width: calc(100% - 630px);
-		margin-left: 630px;
+		margin-left: 24vw;
 	}
 }
 
