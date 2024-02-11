@@ -615,7 +615,7 @@ main {
 
 .custom-block-info {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 40px;
   padding-bottom: 0;
 }
 
@@ -632,7 +632,7 @@ main {
 .custom-block-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 300px;
+  width: 500px;
   height: 300px;
   object-fit: cover;
 }
