@@ -632,7 +632,7 @@ main {
 .custom-block-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 500px;
+  width: 650px;
   height: 300px;
   object-fit: cover;
 }
@@ -1099,8 +1099,8 @@ main {
 
 span.skill_text {
   margin-top: 20px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
   font-weight: bold;
   font-size: 0.9rem;
 }
