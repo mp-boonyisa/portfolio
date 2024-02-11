@@ -32,8 +32,8 @@ https://templatemo.com/tm-584-pod-talk
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
-  --p-font-size:                  16px;
-  --menu-font-size:               1rem;
+  --p-font-size:                  1rem;
+  --menu-font-size:               1.3rem;
 
   --border-radius-large:          100px;
   --border-radius-medium:         20px;
@@ -321,7 +321,7 @@ main {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: #343a40;
 }
 
 .navbar .dropdown-menu {
