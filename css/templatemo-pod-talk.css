@@ -1097,7 +1097,7 @@ main {
   color: var(--white-color);
 }
 
-.skill_text {
+span.skill_text {
   margin-top: 20px;
   margin-left: 25px;
   margin-right: 25px;
