@@ -16,11 +16,11 @@ https://templatemo.com/tm-584-pod-talk
   --primary-color:                #E25E3E;
   --secondary-color:              #C63D2F;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #FF9B50;
-  --custom-btn-bg-hover-color:    #E25E3E;
+  --custom-btn-bg-color:          #8A2A2A;
+  --custom-btn-bg-hover-color:    #B04646;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #E25E3E;
+  --border-color:                 #FF9B50;
   --link-hover-color:             #FF9B50;
 
   --body-font-family:             'Montserrat', sans-serif;
@@ -321,7 +321,7 @@ main {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: #343a40;
+  color: #fff56e;
 }
 
 .navbar .dropdown-menu {
