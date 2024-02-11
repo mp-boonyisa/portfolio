@@ -763,7 +763,8 @@ main {
   font-family: var(--title-font-family);
   color: var(--p-color);
   text-transform: uppercase;
-  margin-left: 3px;
+  margin-left: 12px;
+  margin-right: 16px;
 }
 
 .custom-block-overlay {
