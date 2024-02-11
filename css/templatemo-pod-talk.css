@@ -13,15 +13,15 @@ https://templatemo.com/tm-584-pod-talk
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #00CC99;
-  --secondary-color:              #0066CC;
+  --primary-color:                #E25E3E;
+  --secondary-color:              #C63D2F;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #0066CC;
-  --custom-btn-bg-hover-color:    #00CC99;
+  --custom-btn-bg-color:          #FF9B50;
+  --custom-btn-bg-hover-color:    #E25E3E;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #0066CC;
+  --border-color:                 #E25E3E;
+  --link-hover-color:             #FF9B50;
 
   --body-font-family:             'Montserrat', sans-serif;
   --title-font-family:            'Sono', sans-serif;
@@ -33,7 +33,7 @@ https://templatemo.com/tm-584-pod-talk
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
   --p-font-size:                  16px;
-  --menu-font-size:               14px;
+  --menu-font-size:               1rem;
 
   --border-radius-large:          100px;
   --border-radius-medium:         20px;
