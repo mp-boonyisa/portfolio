@@ -73,8 +73,8 @@ hr { border-top: 4px solid #CCC; }
 }
 
 .tm-section-wrap {
-	width: calc(100% - 750px);
-	margin-left: 30vw;
+	width: calc(100% - 28vw);
+	margin-left: 25vw !important;
 	margin-right: 0;
 	position: relative;
 }
