@@ -13,10 +13,10 @@ https://templatemo.com/tm-584-pod-talk
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #E25E3E;
+  --primary-color:                #de6666;
   --secondary-color:              #C63D2F;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #8A2A2A;
+  --custom-btn-bg-color:          #de6666;
   --custom-btn-bg-hover-color:    #B04646;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -24,7 +24,7 @@ https://templatemo.com/tm-584-pod-talk
   --link-hover-color:             #FF9B50;
 
   --body-font-family:             'Montserrat', sans-serif;
-  --title-font-family:            'Sono', sans-serif;
+  --title-font-family:            'Poppins', sans-serif;
 
   --h1-font-size:                 58px;
   --h2-font-size:                 46px;
@@ -303,7 +303,7 @@ main {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--section-bg-color);
+  color: var(--p-color);
   font-family: var(--title-font-family); 
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
@@ -321,7 +321,7 @@ main {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: #fff56e;
+  color: var(--custom-btn-bg-color);
 }
 
 .navbar .dropdown-menu {
@@ -395,8 +395,8 @@ main {
 }
 
 .navbar .custom-border-btn {
-  border-color: var(--white-color);
-  color: var(--white-color);
+  border-color: var(--custom-btn-bg-color);
+  color: var(--custom-btn-bg-color);
 }
 
 .navbar .custom-border-btn:hover {
@@ -475,9 +475,9 @@ main {
   CAROUSEL        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/templatemo-wave-banner.jpg'), linear-gradient(#C63D2F, #FFFFFF);
+  background-image: url('../images/bg_shape.jpg'), linear-gradient(#C63D2F, #FFFFFF);
   background-repeat: no-repeat;
-  background-size: 108% 76%;
+  background-size: cover;
   background-position: top;
   padding-top: 16rem
 }
@@ -1103,6 +1103,16 @@ span.skill_text {
   margin-right: 35px;
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+p.title_work a{
+  color: #717275;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.text_gray{
+  color: #717275;
 }
 
 /*---------------------------------------
