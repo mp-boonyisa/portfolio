@@ -999,6 +999,32 @@ main {
   background: var(--primary-color);
 }
 
+.tablink {
+  background-color: #a1988b;
+  color: white;
+  float: left;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 24%;
+  margin: 0px 6px 10px 6px;
+  box-shadow: 0px 5px 20px 1px #a1a1a1c4;
+}
+.tablink:hover {
+  background-color: #747474;
+  box-shadow: 0px 5px 20px 1px #a1a1a1c4;
+}
+
+.tabcontent {
+  transition: ease 2s;;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
 
 /*---------------------------------------
   SITE FOOTER              
